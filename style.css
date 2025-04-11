@@ -1,0 +1,52 @@
+:root {
+    --color-red: #d37c6f;
+    --color-yellow: #f9b134;
+    --color-violet: #ac5ee4;
+    --color-blue: #3b3172;
+    --color-green: #83b998;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black; 
+}
+
+.glide__track {
+    width: 920px;
+    height: 320px;
+}
+
+.item__container{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: var(--color-violet);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background--yellow {
+    background-color: var(--color-yellow);
+}
+
+.background--violet {
+    background-color: var(--color-violet);
+}
+
+.background--blue {
+    background-color: var(--color-blue);
+}
+
+.background--red {
+    background-color: var(--color-red);
+}
+
+.background--green {
+    background-color: var(--color-green);
+}
